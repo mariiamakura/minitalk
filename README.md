@@ -40,10 +40,31 @@ Use function int kill(pid_t pid, int sig) - don't worry we won't kill anyone.
 The kill() system call can be used to send any signal to any process group or process. [More](https://man7.org/linux/man-pages/man2/kill.2.html)
 
 To send characters in bit you sould know few binary operations:
-1. AND - &: 
+1. AND  & : 1 is only possible when there are two of them
 ```
 10001100
 11010101
 10000100 - result of & operation
 ```
-2. 
+2. OR  | : 0 is only possible when there are two of them
+```
+10001100
+11010101
+11011101 - result of | operation
+```
+3. XOR A^B : only one of a pair can be 1
+```
+10001100
+11010101
+01011001 - result of ^ operation
+```
+4. NOT ~ : giving back reverse bits
+```
+10001100
+01110011 -result of ~ operation
+```
+5. <<n or >>n : move bits in the direction specified on n bites and adds 0 in the end
+```
+10100110
+10011000-result of <<2 operation
+```
