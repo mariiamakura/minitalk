@@ -68,3 +68,22 @@ To send characters in bit you sould know few binary operations:
 10100110
 10011000-result of <<2 operation
 ```
+
+few hints: 
+```
+char = 8 bits
+char c = A (==01000001)
+int n = 64 (==01000000)
+char newchar = c & n - the result will be n
+
+```
+64 = 01000000
+32 = 00100000
+16 = 00010000
+8 =  00001000
+4 =  00000100
+2 =  00000010
+1 =  00000001
+```
+
+```
