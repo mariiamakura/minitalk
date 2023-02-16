@@ -72,7 +72,7 @@ To send characters in bit you sould know few binary operations:
 few hints: 
 ```
 char = 8 bits
-char c = A (==01000001)
+char c = 'A' (==01000001)
 int n = 64 (==01000000)
 char newchar = c & n - the result will be n
 ```
@@ -86,3 +86,21 @@ char newchar = c & n - the result will be n
 2 =  00000010
 1 =  00000001
 ```
+
+## how to receive characters by bits
+```
+int main()
+{
+char c = 'A';
+int num = 64;
+
+char newchar = 0;
+while (num > 0)
+  {
+    if ((c & num) > 0)
+      newchar = newchar | 1;
+    num /= 2;
+  }
+}
+```
+
