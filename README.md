@@ -63,7 +63,7 @@ To send characters in bit you sould know few binary operations:
 10001100
 01110011 -result of ~ operation
 ```
-5. <<n or >>n : move bits in the direction specified on n bites and adds 0 in the end
+5. '<<n' or '>>n' : move bits in the direction specified on n bites and adds 0 in the end
 ```
 10100110
 10011000-result of <<2 operation
