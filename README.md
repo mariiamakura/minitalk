@@ -38,3 +38,12 @@ Bit by bit ;)
 Use function int kill(pid_t pid, int sig) - don't worry we won't kill anyone. 
 
 The kill() system call can be used to send any signal to any process group or process. [More](https://man7.org/linux/man-pages/man2/kill.2.html)
+
+To send characters in bit you sould know few binary operations:
+1. AND - &: 
+```
+10001100
+11010101
+10000100 - result of & operation
+```
+2. 
