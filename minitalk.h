@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   minitalk.h                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mishamakura <mishamakura@student.42.fr>    +#+  +:+       +#+        */
+/*   By: mparasku <mparasku@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/16 20:34:55 by mishamakura       #+#    #+#             */
-/*   Updated: 2023/02/16 21:47:48 by mishamakura      ###   ########.fr       */
+/*   Updated: 2023/02/17 13:11:24 by mparasku         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
