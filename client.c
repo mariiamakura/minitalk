@@ -6,7 +6,7 @@
 /*   By: mparasku <mparasku@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/16 20:35:29 by mishamakura       #+#    #+#             */
-/*   Updated: 2023/02/21 16:26:09 by mparasku         ###   ########.fr       */
+/*   Updated: 2023/02/21 17:03:49 by mparasku         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,17 +81,25 @@ void	config_signals(void)
 	kill(pid_server, SIGUSR1);
 } */
 
+void send_bits(pid_t pid_server, char *message)
+{
+
+//bitwise operations!
+	
+}
+
 int	main(int av, char* ag[])
 {
 	int	pid_client;
 	int	pid_server;
 	int	arg_error;
 
-	pid_client = getpid();
 	arg_error = arguments_check(av, ag);
 	if (arg_error == 0)
 		return (0);
-	//ft_printf("CLIENT PID: %d\n", pid_client);
+	pid_server = ft_atoi(ag[1]);
+	pid_client = getpid();
+	ft_printf("CLIENT PID: %d\n", pid_client);
 	config_signals();
-	send_message();
+	send_bits(pid_server, ag[2]); 
 }
