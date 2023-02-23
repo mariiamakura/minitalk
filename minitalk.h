@@ -6,7 +6,7 @@
 /*   By: mparasku <mparasku@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/16 20:34:55 by mishamakura       #+#    #+#             */
-/*   Updated: 2023/02/17 13:11:24 by mparasku         ###   ########.fr       */
+/*   Updated: 2023/02/23 14:51:55 by mparasku         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <signal.h>
+#include <stdlib.h>
 #include "printf/libft/libft.h"
 #include "printf/includes/ft_printf.h"
 

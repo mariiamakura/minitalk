@@ -1,0 +1,3 @@
+/nfs/homes/mparasku/tasks/my_github/my_minitalk/cmake-build-debug/CMakeFiles/my_minitalk.dir
+/nfs/homes/mparasku/tasks/my_github/my_minitalk/cmake-build-debug/CMakeFiles/edit_cache.dir
+/nfs/homes/mparasku/tasks/my_github/my_minitalk/cmake-build-debug/CMakeFiles/rebuild_cache.dir
