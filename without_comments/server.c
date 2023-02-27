@@ -6,7 +6,7 @@
 /*   By: mparasku <mparasku@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/16 20:35:32 by mishamakura       #+#    #+#             */
-/*   Updated: 2023/02/27 15:25:25 by mparasku         ###   ########.fr       */
+/*   Updated: 2023/02/27 16:02:53 by mparasku         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ int	main(void)
 	pid_t	pid_server;
 
 	pid_server = getpid();
-	printf("SERVER PID: %d\n\n", pid_server);
+	ft_printf("SERVER PID: %d\n\n", pid_server);
 	while (1)
 	{
 		config_signals();
